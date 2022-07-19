@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="payment8002" />
+        <module name="payment8004" />
+        <module name="cloud-eureka-server7001" />
+        <module name="cloud-eureka-server7002" />
+        <module name="cloud-config-center" />
+        <module name="cloud-consumer-feign-hystrix-order80" />
+        <module name="cloud-consumer-hystrix-dashboard9001" />
+        <module name="cloud-gateway-gateway9527" />
+        <module name="cloud-consumer-order80" />
+        <module name="cloud-provider-hystrix-payment8001" />
+        <module name="cloud-commons" />
+        <module name="payment8001" />
+        <module name="cloud-consumer-feign-order80" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Nacos" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Nacos" options="-parameters -verbose -bootclasspath $PROJECT_DIR$/../../java/Java1.8/jdk1.8.0_171/jre/lib/rt.jar;$PROJECT_DIR$/../../java/Java1.8/jdk1.8.0_171/jre/lib/jce.jar;$PROJECT_DIR$/../../java/Java1.8/jdk1.8.0_171/jre/lib/plugin.jar" />
+      <module name="cloud-commons" options="-parameters -verbose -bootclasspath $PROJECT_DIR$/../../java/Java1.8/jdk1.8.0_171/jre/lib/rt.jar;$PROJECT_DIR$/../../java/Java1.8/jdk1.8.0_171/jre/lib/jce.jar;$PROJECT_DIR$/../../java/Java1.8/jdk1.8.0_171/jre/lib/plugin.jar" />
+      <module name="cloud-config-center" options="-parameters -verbose -bootclasspath $PROJECT_DIR$/../../java/Java1.8/jdk1.8.0_171/jre/lib/rt.jar;$PROJECT_DIR$/../../java/Java1.8/jdk1.8.0_171/jre/lib/jce.jar;$PROJECT_DIR$/../../java/Java1.8/jdk1.8.0_171/jre/lib/plugin.jar" />
+      <module name="cloud-consumer-feign-hystrix-order80" options="-parameters -verbose -bootclasspath $PROJECT_DIR$/../../java/Java1.8/jdk1.8.0_171/jre/lib/rt.jar;$PROJECT_DIR$/../../java/Java1.8/jdk1.8.0_171/jre/lib/jce.jar;$PROJECT_DIR$/../../java/Java1.8/jdk1.8.0_171/jre/lib/plugin.jar" />
+      <module name="cloud-consumer-feign-order80" options="-parameters -verbose -bootclasspath $PROJECT_DIR$/../../java/Java1.8/jdk1.8.0_171/jre/lib/rt.jar;$PROJECT_DIR$/../../java/Java1.8/jdk1.8.0_171/jre/lib/jce.jar;$PROJECT_DIR$/../../java/Java1.8/jdk1.8.0_171/jre/lib/plugin.jar" />
+      <module name="cloud-consumer-hystrix-dashboard9001" options="-parameters -verbose -bootclasspath $PROJECT_DIR$/../../java/Java1.8/jdk1.8.0_171/jre/lib/rt.jar;$PROJECT_DIR$/../../java/Java1.8/jdk1.8.0_171/jre/lib/jce.jar;$PROJECT_DIR$/../../java/Java1.8/jdk1.8.0_171/jre/lib/plugin.jar" />
+      <module name="cloud-consumer-order80" options="-parameters -verbose -bootclasspath $PROJECT_DIR$/../../java/Java1.8/jdk1.8.0_171/jre/lib/rt.jar;$PROJECT_DIR$/../../java/Java1.8/jdk1.8.0_171/jre/lib/jce.jar;$PROJECT_DIR$/../../java/Java1.8/jdk1.8.0_171/jre/lib/plugin.jar" />
+      <module name="cloud-eureka-server7001" options="-parameters -verbose -bootclasspath $PROJECT_DIR$/../../java/Java1.8/jdk1.8.0_171/jre/lib/rt.jar;$PROJECT_DIR$/../../java/Java1.8/jdk1.8.0_171/jre/lib/jce.jar;$PROJECT_DIR$/../../java/Java1.8/jdk1.8.0_171/jre/lib/plugin.jar" />
+      <module name="cloud-eureka-server7002" options="-parameters -verbose -bootclasspath $PROJECT_DIR$/../../java/Java1.8/jdk1.8.0_171/jre/lib/rt.jar;$PROJECT_DIR$/../../java/Java1.8/jdk1.8.0_171/jre/lib/jce.jar;$PROJECT_DIR$/../../java/Java1.8/jdk1.8.0_171/jre/lib/plugin.jar" />
+      <module name="cloud-gateway-gateway9527" options="-parameters -verbose -bootclasspath $PROJECT_DIR$/../../java/Java1.8/jdk1.8.0_171/jre/lib/rt.jar;$PROJECT_DIR$/../../java/Java1.8/jdk1.8.0_171/jre/lib/jce.jar;$PROJECT_DIR$/../../java/Java1.8/jdk1.8.0_171/jre/lib/plugin.jar" />
+      <module name="cloud-provider-hystrix-payment8001" options="-parameters -verbose -bootclasspath $PROJECT_DIR$/../../java/Java1.8/jdk1.8.0_171/jre/lib/rt.jar;$PROJECT_DIR$/../../java/Java1.8/jdk1.8.0_171/jre/lib/jce.jar;$PROJECT_DIR$/../../java/Java1.8/jdk1.8.0_171/jre/lib/plugin.jar" />
+      <module name="payment8001" options="-parameters -verbose -bootclasspath $PROJECT_DIR$/../../java/Java1.8/jdk1.8.0_171/jre/lib/rt.jar;$PROJECT_DIR$/../../java/Java1.8/jdk1.8.0_171/jre/lib/jce.jar;$PROJECT_DIR$/../../java/Java1.8/jdk1.8.0_171/jre/lib/plugin.jar" />
+      <module name="payment8002" options="-parameters -verbose -bootclasspath $PROJECT_DIR$/../../java/Java1.8/jdk1.8.0_171/jre/lib/rt.jar;$PROJECT_DIR$/../../java/Java1.8/jdk1.8.0_171/jre/lib/jce.jar;$PROJECT_DIR$/../../java/Java1.8/jdk1.8.0_171/jre/lib/plugin.jar" />
+      <module name="payment8004" options="-parameters -verbose -bootclasspath $PROJECT_DIR$/../../java/Java1.8/jdk1.8.0_171/jre/lib/rt.jar;$PROJECT_DIR$/../../java/Java1.8/jdk1.8.0_171/jre/lib/jce.jar;$PROJECT_DIR$/../../java/Java1.8/jdk1.8.0_171/jre/lib/plugin.jar" />
+      <module name="springCloud" options="" />
+    </option>
+  </component>
+</project>
